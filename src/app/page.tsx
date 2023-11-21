@@ -42,7 +42,7 @@ export default function Home() {
             Entrar com GitHub
           </button>
         </Link>
-        <Link href={'/'}>
+        <Link href={'/main'}>
           <button className="mt-4 flex h-[72px] w-[372px] items-center justify-start rounded-lg  bg-gray-600 p-6 text-gray-200 hover:bg-gray-500">
             <Image
               src={'/visitante_icon.svg'}
