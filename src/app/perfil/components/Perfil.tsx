@@ -1,4 +1,4 @@
-import { User2 } from 'lucide-react'
+import { Search, User2 } from 'lucide-react'
 
 import History from './History'
 import Info from './Info'
@@ -11,13 +11,14 @@ export default function Perfil() {
           <User2 className="mr-4 text-green-100" width={32} height={32} />
           Perfil
         </h1>
-        <h2 className="mb-4 mt-10 text-sm text-gray-100">
+        <div className="mb-4 mt-10 flex w-full items-center rounded border border-gray-500 p-3 shadow-sm">
+          <Search className="mr-2 h-[20] w-[20] text-gray-500" />
           <input
             type="text"
             placeholder="Buscar livro avaliado"
-            className="flex h-12 w-full rounded border border-gray-500 bg-gray-700 bg-[url('/search.svg')] bg-right bg-no-repeat p-5"
+            className="flex-1 border-0 bg-transparent text-gray-500 placeholder-gray-500 "
           />
-        </h2>
+        </div>
         <History />
         <History />
         <History />

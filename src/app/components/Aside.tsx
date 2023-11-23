@@ -24,7 +24,7 @@ export default function Aside() {
               <h1>Inicio</h1>
             </Link>
             <Link
-              href={'/explorar'}
+              href={'/explorer'}
               className="flex gap-2 text-base text-gray-400 hover:text-gray-100"
             >
               <Glasses />
